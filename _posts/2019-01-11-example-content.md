@@ -3,8 +3,8 @@ layout: post
 title: First blog post
 ---
 
+### Metis Project #1: 
 ##  Optimizing Marketing at New York MTA Stations
-### Metis Project #1
 
 The goal of this project was to identify the optimal stations to place street teams in order to recruit people to attend a fictioal women in technology gala. The gala was to take place in New York City in the early summer and we were to use the MTA turnstile data in our analysis. 
 
@@ -15,7 +15,7 @@ The goal of this project was to identify the optimal stations to place street te
 3. Within our filtered stations, choose those with the highest volume of traffic.  
 
 
-### Target Audience 
+#### Target Audience 
 We assumed that the following groups would be likely to attend a women in technology gala: 
 * Women working in technology fields
 * Other genders working in technology fields
