@@ -54,17 +54,11 @@ I used the threshold 70% to filter out the subdivisions of interest because this
 Below are figures depicting the the % of target demographics per subdivision. (Subdivisions are not labeled due to the high # present). 
 
 Percent of employed people residing in the district working in management, business, science, and arts
-![graph]
-(https://github.com/kmussar/metis_project_benson/blob/master/districts_industry.png)
+![graph](https://github.com/kmussar/metis_project_benson/blob/master/districts_industry.png)
 
 females 16 years and over in the labor force
 ![graph](https://raw.githubusercontent.com/kmussar/metis_project_benson/master/districts_women.png)
 
-I sorted the subdivisions based on the % of the population  of 
-Of {% highlight text %} 
-### 
-{% endhighlight %}
-subdivisions 
 
 ### Idenfity the MTA subway stations that are located in these subdivisions
 
