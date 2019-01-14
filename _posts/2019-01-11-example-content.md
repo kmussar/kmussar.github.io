@@ -15,7 +15,7 @@ The goal of this project was to identify the optimal stations to place street te
 3. Within our filtered stations, choose those with the highest volume of traffic.  
 
 
-#### Target Audience 
+#### **Target Audience** 
 We assumed that the following groups would be likely to attend a women in technology gala: 
 * Women working in technology fields
 * Other genders working in technology fields
@@ -32,12 +32,41 @@ To complete this project, we used the following 5 data sources:
 * NYC's [MTA Turnstile Data](http://web.mta.info/developers/turnstile.html) 
 
 ## Data Cleaning and Exploratory Data Analysis
+My Jupyter notebook for Data Cleaning and EDA can be found [here:](https://github.com/kmussar/metis_project_benson/blob/master/Project%201_demographics_Clean.ipynb) 
 ### Determine which neighborhoods our target audience lives, works, or goes to school in. 
+#### **Using NTA data to idenfiy neighborhoods with the highest perecentage of employed women, and the highest number of employed people in technology live.**
+Neighbhorhood tabulation areas (NTAs) are subdivisions of New York City used in census data. This dataset from the New York City government describes the demographics in each area.
+Columns include:
+* Employment Status
+* Occupation Industry
+* Age 
+* Gender
+* If they have children
+* Income
+* Health Insurance Coverage
 
+The features I focused on specifically are:
+* Percentage of civilian employed population 16 years and over in region in management, business, science, and arts occupations. 
+* Percentage of females 16 years and over in the labor force
 
-### Idenfity the MTA subway stations that are located in these neighborhoods
+I used the threshold 70% to filter out the subdivisions of interest because this number seems high enough that a member of a street team would encounter someone in their target audience by chance.
 
+Below are figures depicting the the % of target demographics per subdivision. (Subdivisions are not labeled due to the high # present). 
 
+Percent of employed people residing in the district working in management, business, science, and arts
+![graph]
+(https://github.com/kmussar/metis_project_benson/blob/master/districts_industry.png)
+
+females 16 years and over in the labor force
+![graph](https://raw.githubusercontent.com/kmussar/metis_project_benson/master/districts_women.png)
+
+I sorted the subdivisions based on the % of the population  of 
+Of {% highlight text %} 
+### 
+{% endhighlight %}
+subdivisions 
+
+### Idenfity the MTA subway stations that are located in these subdivisions
 
 ### Calculate the volume of traffic for each subway station. 
 
